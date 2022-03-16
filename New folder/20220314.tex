@@ -98,16 +98,32 @@
 \DeclareMathOperator{\saturated}{Sat}
 \DeclareMathOperator{\length}{length}
 
-
+\renewcommand\qedsymbol{\texttt{:-)}}
 
 
 
 \begin{document}
+
+
 
 \begin{sat}
 	Let \(M\) be an irreducible manifold which need not to be compact. Let \(F\) be an incompressible (compact, closed) boundary component of \(M\). in \(\partial M - F\), let \(F'\) be an incompressible surface which need neither be closed or compact. Suppose: if \(k\) is any closed curves in \(F\), then some non-null multiple of \(k\) is homotopic to a curve in \(F'\). Then \(M\) is homeomorphic to \(F\times I\).
 \end{sat}
 
 
+\begin{proof}[Warm-up]
+	 Suppose I am a student in intro to abstract math. I'm going to use the signature proof strategy: implicitly assume \(M = F \times I\), show that it satisfy the assumptions given, and then prove \(M \cong F \times I\). It is like we are doing a surgery on a lab rat to figure out what can work, and then try to apply to the more complicated case and try to resolve what don't work.
+	 \begin{figure}[h!]
+		\centering
+		\includegraphics[width = 0.5\textwidth]{IMG_0627.jpg}
+	 	\caption{(boring) mapping cylinders in \(M = F\times I\)}
+	 \end{figure}
+
+	 Suppose \(F\) has genus \(g\), then we can construct a system of essential simple closed curves \(k_1, \ldots, k_{2g}\) such that \(k_i\) and \(k_j\) intersect once traversely if \(i = j \pm 1\), and they are disjoint otherwise. If you have trouble finding such system, email me at \texttt{mujie.wang@bc.edu} for more assistance. For each \(k_j\), there is an cylinder \(G_j = k_j \times I\) embedded in \(M\). A pair of cylinders \(G_i\) and \(G_j\) intersect if and only if \(k_i\) and \(k_j\) intersect, and the intersection \(G_i \cap G_j\) is exactly \((k_i \cap k_j)\times I\).  
+
+	 Here comes the second hardest part of this fake proof. 
+
+
+\end{proof}
 
 \end{document}

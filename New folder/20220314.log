@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.6)  14 MAR 2022 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.6)  15 MAR 2022 20:21
 entering extended mode
 **"C:/Users/Mujie/Documents/GitHub/jubilant-spork/New folder/20220314.tex"
 (C:/Users/Mujie/Documents/GitHub/jubilant-spork/New folder/20220314.tex
@@ -408,29 +408,40 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package xypdf Info: Line width: 0.47998pt on input line 105.
+<IMG_0627.jpg, id=1, 722.7pt x 410.53375pt>
+File: IMG_0627.jpg Graphic file (type jpg)
+<use IMG_0627.jpg>
+Package pdftex.def Info: IMG_0627.jpg  used on input line 118.
+(pdftex.def)             Requested size: 180.0pt x 102.25107pt.
  [1
 Non-PDF special ignored!
 <special> header=psfrag.pro
-{C:/Users/Mujie/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (20220314.aux) 
-) 
+{C:/Users/Mujie/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./IMG_0627.jpg>
+] (20220314.aux) ) 
 Here is how much of TeX's memory you used:
- 8281 strings out of 478927
- 115272 string characters out of 2852535
- 460707 words of memory out of 3000000
- 25849 multiletter control sequences out of 15000+600000
- 412812 words of font info for 71 fonts, out of 8000000 for 9000
+ 8301 strings out of 478927
+ 115570 string characters out of 2852535
+ 467712 words of memory out of 3000000
+ 25865 multiletter control sequences out of 15000+600000
+ 413282 words of font info for 73 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 72i,5n,80p,3300b,195s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmmi12.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr9.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Mujie/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on 20220314.pdf (1 page, 61049 bytes).
+ 72i,8n,80p,3300b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/Mujie/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Mujie/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Mujie/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Mujie/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/
+Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:
+/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmti12.pfb><C:/Users/Mujie/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmtt12.pfb>
+Output written on 20220314.pdf (1 page, 149214 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
+ 62 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
