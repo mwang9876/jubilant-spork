@@ -1,0 +1,99 @@
+\documentclass[12pt]{amsart}
+
+%\usepackage{pdfsync}
+\usepackage{latexsym,enumitem}
+\usepackage{amssymb}
+\usepackage[cp850]{inputenc}
+\usepackage{epsfig}
+\usepackage{psfrag}
+\usepackage{amsthm}
+\usepackage{amscd}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphics,caption}
+\usepackage[all]{xy}
+\usepackage{etoolbox}
+\usepackage{xcolor}
+\patchcmd{\quote}{\rightmargin}{\leftmargin 2em \rightmargin}{}{}
+\captionsetup{width=4.7in}
+
+\newtheorem{sat}{Theorem}[section]		\newtheorem{lem}[sat]{Lemma}
+\newtheorem{kor}[sat]{Corollary}			\newtheorem{prop}[sat]{Proposition}
+\newtheorem{bei}{Example}				\newtheorem{defi}[sat]{Definition}
+\newtheorem{rmk}[sat]{Remark}
+\newtheorem*{defi*}{Definition}			\newtheorem*{bei*}{Example}
+\newtheorem*{sat*}{Theorem}				\newtheorem*{kor*}{Corollary}
+\newtheorem*{rmk*}{Remark}				\newtheorem{quest}{Question}	
+\newtheorem{claim}[sat]{Claim}	
+\newtheorem{fact}[sat]{Fact}	
+
+% number equations by section:
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\let\ssection=\section
+\renewcommand{\section}{\setcounter{equation}{0}\ssection}
+
+\newtheorem*{namedtheorem}{\theoremname}
+\newcommand{\theoremname}{testing}
+\newenvironment{named}[1]{\renewcommand{\theoremname}{#1}\begin{namedtheorem}}{\end{namedtheorem}}
+
+\theoremstyle{remark}
+\newtheorem*{bem}{Remark}
+
+%\setlength{\parindent}{0em}
+
+%\newcommand{\defin}{\ensuremath{\overset{ \text{\tiny def} }{=} } }
+
+\newcommand{\BC}{\mathbb C}			\newcommand{\BH}{\mathbb H}
+\newcommand{\BR}{\mathbb R}			\newcommand{\BD}{\mathbb D}
+\newcommand{\BN}{\mathbb N}			\newcommand{\BQ}{\mathbb Q}
+\newcommand{\BS}{\mathbb S}			\newcommand{\BZ}{\mathbb Z}
+\newcommand{\BF}{\mathbb F}			\newcommand{\BT}{\mathbb T}
+\newcommand{\BU}{\mathbb U}
+%\newcommand{\RP}{\mathrm P}
+
+\newcommand{\CA}{\mathcal A}		\newcommand{\CB}{\mathcal B}
+\newcommand{\CC}{\mathcal C}		\newcommand{\calD}{\mathcal D}
+\newcommand{\CE}{\mathcal E}		\newcommand{\CF}{\mathcal F}
+\newcommand{\CG}{\mathcal G}		\newcommand{\CH}{\mathcal H}
+\newcommand{\CI}{\mathcal I}		\newcommand{\CJ}{\mathcal J}
+\newcommand{\CK}{\mathcal K}		\newcommand{\CL}{\mathcal L}
+\newcommand{\CM}{\mathcal M}		\newcommand{\CN}{\mathcal N}
+\newcommand{\CO}{\mathcal O}		\newcommand{\CP}{\mathcal P}
+\newcommand{\CQ}{\mathcal Q}		\newcommand{\CR}{\mathcal R}
+\newcommand{\CS}{\mathcal S}		\newcommand{\CT}{\mathcal T}
+\newcommand{\CU}{\mathcal U}		\newcommand{\CV}{\mathcal V}
+\newcommand{\CW}{\mathcal W}		\newcommand{\CX}{\mathcal X}
+\newcommand{\CY}{\mathcal Y}		\newcommand{\CZ}{\mathcal Z}
+
+\newcommand{\actson}{\curvearrowright}
+\newcommand{\D}{\partial}
+\newcommand{\DD}{\nabla}
+\newcommand{\into}{\hookrightarrow}
+
+
+\DeclareMathOperator{\Out}{Out}		%	Aeussere Automorphismen einer Gruppe
+\DeclareMathOperator{\Diff}{Diff}	%	Diffeomorphimen einer Mf
+\DeclareMathOperator{\SL}{SL}		%	Spezielle lineare Gruppe
+\DeclareMathOperator{\PSL}{PSL}		%	Spezielle lineare Gruppe
+\DeclareMathOperator{\GL}{GL}		%	Allgemeine lineare Gruppe
+\DeclareMathOperator{\Id}{Id}		%	Identit\"at
+\DeclareMathOperator{\Isom}{Isom}	%	Isometrien einer Mf
+\DeclareMathOperator{\Hom}{Hom}		%	Homomorphismen
+\DeclareMathOperator{\vol}{vol}		%	Volumen
+\DeclareMathOperator{\area}{area}
+\DeclareMathOperator{\tr}{Tr}
+\DeclareMathOperator{\SU}{SU}
+\DeclareMathOperator{\Map}{Map}
+\DeclareMathOperator{\inj}{inj}
+\DeclareMathOperator{\diam}{diam}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\Axis}{Axis}
+\DeclareMathOperator{\maxrad}{maxrad}
+\DeclareMathOperator{\height}{height}
+\DeclareMathOperator{\rel}{rel}
+\DeclareMathOperator{\arccosh}{arccosh}
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\diver}{div}
+\DeclareMathOperator{\width}{width}
+\DeclareMathOperator{\saturated}{Sat}
+\DeclareMathOperator{\length}{length}
